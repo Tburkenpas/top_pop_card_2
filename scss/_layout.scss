@@ -1,0 +1,268 @@
+/*  Header Styles 
+======================*/
+
+.main_title {
+
+	text-align: center;
+
+	h1 {
+		font-size: 6em;
+		padding-top: 30px;
+		font-family: $font1;
+		color: $red;
+	}
+	h3 {
+		font-size: 1.9em;
+		font-family: $font3;
+		margin-top: 20px;
+		color: $black;
+		padding-bottom: 30px;
+	}
+}
+
+
+
+/* custom nav changes
+======================*/
+
+.contain-to-grid {
+	.top-bar .name h1 { 
+		font-family: $font1;
+		font-size: 1.7em;
+	}
+	nav {
+		li {
+			padding-right: 10px;
+			margin-right: 20px;
+
+		}
+	}
+}
+
+/* index Page changes
+======================*/
+
+.item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.panel-size {
+	padding-top: 65px;
+	padding-bottom: 65px;
+}
+
+.banner-img {
+	max-width: 450px;
+	width: 100%;
+}
+
+.banner-info{
+	margin-top: 40px;
+	width: 450px;
+	h3 {
+		font-family: $font1;
+		font-size: 2.5em;
+		text-align: center;
+	}
+
+	p {
+		font-family: $font3;
+		margin-top: 20px;
+		text-align: center;
+	}
+}
+
+.bottle-info, .bottle-info2 {
+	margin-top: 150px;
+	
+	h3{
+		font-family: $font1;
+	}
+
+	p {
+		font-family: $font2;
+	}
+}
+
+.bottle-info2 {
+	margin-bottom: 150px;
+}
+
+
+
+/* Icon Styles
+======================*/
+
+.contact-footer, .pages-footer {
+	h3 {
+		font-size: 1.3em;
+		margin-bottom: 20px;
+		font-family: $font1;
+		text-decoration: underline;
+	}
+	ul {
+	list-style-type: none;
+
+
+	a {
+
+		margin-left: 10px;
+		color: black;
+	}
+	}
+}
+
+.bg-grey {
+	background-color: #d7d7d7;
+
+	.row {
+		padding-top: 20px;
+	}
+}
+
+.title-footer {
+	margin-top: 50px;
+	h4 {
+		font-size: 2em;
+		font-family: $font1;
+		color: $red;
+		text-align: center;
+	}
+	p {
+		text-align: center;
+	}
+}
+
+[class*="fi-"] {
+	font-size: 1.5em;
+}
+
+
+/* Contact Page Styles
+======================*/
+
+.contact-page {
+	margin-top: 75px;
+	margin-bottom: 75px;
+	h3 {
+		font-family: $font1;
+		color: $red;
+	}
+	p {
+		font-family: $font2;
+	}
+
+	label {
+		font-size: 1em;
+		font-family: $font1;
+		color: $red;
+
+		input {
+			font-family: $font2;
+		}
+	}
+
+	i {
+		font-size: 5em;
+		padding-right: 20px;
+	}
+	a {
+		color: $red;
+
+		&:hover {
+			color: $darkred;
+		}
+	}
+}
+
+form {
+.send-button {
+	background-color: $red;
+	color:white;
+
+	&:hover {
+		background-color: $darkred;
+		color: white;
+	}
+}
+}
+
+.socail-column {
+	margin-bottom: 50px;
+}
+
+
+/* Shop Page styles
+======================*/
+
+.mancard-shop-panel {
+	padding-bottom: 75px;
+}
+
+.shop-mancard {
+		h2 {
+		margin-top: 50px;
+		margin-bottom: 30px;
+		font-family: $font1;
+		}
+	}
+
+.man-border{
+	img {
+		border: solid white 5px;
+	}
+}
+
+.mancard-info {
+
+	margin-top: 40px;
+	p {
+		font-size: 1.3em;
+		text-align: center;
+	}
+}
+
+.ace-container {
+	padding-bottom: 75px;
+}
+
+.shop-ace-card {
+		h2 {
+		margin-top: 50px;
+		margin-bottom: 30px;
+		font-family: $font1;
+		}
+	}
+
+.ace-border {
+	img{
+		border: solid $darkred 5px;
+	}
+}
+
+.ace-button {
+	background-color: $darkred;
+	color: white;
+	&:hover {
+		background-color: $red;
+		color: white;
+	}
+}
+
+
+
+/* Media Queries
+======================*/
+
+@media screen and (max-width : 580px) {
+	.main_title {
+		h1 {
+			font-size: 4em;
+		}
+		h3 {
+			font-size: 1.5em;
+		}
+	}
+}

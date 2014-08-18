@@ -1,0 +1,266 @@
+/*  Header Styles 
+======================*/
+/* line 4, ../scss/_layout.scss */
+.main_title {
+  text-align: center;
+}
+/* line 8, ../scss/_layout.scss */
+.main_title h1 {
+  font-size: 6em;
+  padding-top: 30px;
+  font-family: "Pacifico", cursive;
+  color: #bc2f36;
+}
+/* line 14, ../scss/_layout.scss */
+.main_title h3 {
+  font-size: 1.9em;
+  font-family: "Kite One", sans-serif;
+  margin-top: 20px;
+  color: #272727;
+  padding-bottom: 30px;
+}
+
+/* custom nav changes
+======================*/
+/* line 29, ../scss/_layout.scss */
+.contain-to-grid .top-bar .name h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 1.7em;
+}
+/* line 34, ../scss/_layout.scss */
+.contain-to-grid nav li {
+  padding-right: 10px;
+  margin-right: 20px;
+}
+
+/* index Page changes
+======================*/
+/* line 45, ../scss/_layout.scss */
+.item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* line 51, ../scss/_layout.scss */
+.panel-size {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+/* line 56, ../scss/_layout.scss */
+.banner-img {
+  max-width: 450px;
+  width: 100%;
+}
+
+/* line 61, ../scss/_layout.scss */
+.banner-info {
+  margin-top: 40px;
+  width: 450px;
+}
+/* line 64, ../scss/_layout.scss */
+.banner-info h3 {
+  font-family: "Pacifico", cursive;
+  font-size: 2.5em;
+  text-align: center;
+}
+/* line 70, ../scss/_layout.scss */
+.banner-info p {
+  font-family: "Kite One", sans-serif;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* line 77, ../scss/_layout.scss */
+.bottle-info, .bottle-info2 {
+  margin-top: 150px;
+}
+/* line 80, ../scss/_layout.scss */
+.bottle-info h3, .bottle-info2 h3 {
+  font-family: "Pacifico", cursive;
+}
+/* line 84, ../scss/_layout.scss */
+.bottle-info p, .bottle-info2 p {
+  font-family: "Nunito", sans-serif;
+}
+
+/* line 89, ../scss/_layout.scss */
+.bottle-info2 {
+  margin-bottom: 150px;
+}
+
+/* Icon Styles
+======================*/
+/* line 99, ../scss/_layout.scss */
+.contact-footer h3, .pages-footer h3 {
+  font-size: 1.3em;
+  margin-bottom: 20px;
+  font-family: "Pacifico", cursive;
+  text-decoration: underline;
+}
+/* line 105, ../scss/_layout.scss */
+.contact-footer ul, .pages-footer ul {
+  list-style-type: none;
+}
+/* line 109, ../scss/_layout.scss */
+.contact-footer ul a, .pages-footer ul a {
+  margin-left: 10px;
+  color: black;
+}
+
+/* line 117, ../scss/_layout.scss */
+.bg-grey {
+  background-color: #d7d7d7;
+}
+/* line 120, ../scss/_layout.scss */
+.bg-grey .row {
+  padding-top: 20px;
+}
+
+/* line 125, ../scss/_layout.scss */
+.title-footer {
+  margin-top: 50px;
+}
+/* line 127, ../scss/_layout.scss */
+.title-footer h4 {
+  font-size: 2em;
+  font-family: "Pacifico", cursive;
+  color: #bc2f36;
+  text-align: center;
+}
+/* line 133, ../scss/_layout.scss */
+.title-footer p {
+  text-align: center;
+}
+
+/* line 138, ../scss/_layout.scss */
+[class*="fi-"] {
+  font-size: 1.5em;
+}
+
+/* Contact Page Styles
+======================*/
+/* line 146, ../scss/_layout.scss */
+.contact-page {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+/* line 149, ../scss/_layout.scss */
+.contact-page h3 {
+  font-family: "Pacifico", cursive;
+  color: #bc2f36;
+}
+/* line 153, ../scss/_layout.scss */
+.contact-page p {
+  font-family: "Nunito", sans-serif;
+}
+/* line 157, ../scss/_layout.scss */
+.contact-page label {
+  font-size: 1em;
+  font-family: "Pacifico", cursive;
+  color: #bc2f36;
+}
+/* line 162, ../scss/_layout.scss */
+.contact-page label input {
+  font-family: "Nunito", sans-serif;
+}
+/* line 167, ../scss/_layout.scss */
+.contact-page i {
+  font-size: 5em;
+  padding-right: 20px;
+}
+/* line 171, ../scss/_layout.scss */
+.contact-page a {
+  color: #bc2f36;
+}
+/* line 174, ../scss/_layout.scss */
+.contact-page a:hover {
+  color: #872227;
+}
+
+/* line 181, ../scss/_layout.scss */
+form .send-button {
+  background-color: #bc2f36;
+  color: white;
+}
+/* line 185, ../scss/_layout.scss */
+form .send-button:hover {
+  background-color: #872227;
+  color: white;
+}
+
+/* line 192, ../scss/_layout.scss */
+.socail-column {
+  margin-bottom: 50px;
+}
+
+/* Shop Page styles
+======================*/
+/* line 200, ../scss/_layout.scss */
+.mancard-shop-panel {
+  padding-bottom: 75px;
+}
+
+/* line 205, ../scss/_layout.scss */
+.shop-mancard h2 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: "Pacifico", cursive;
+}
+
+/* line 213, ../scss/_layout.scss */
+.man-border img {
+  border: solid white 5px;
+}
+
+/* line 218, ../scss/_layout.scss */
+.mancard-info {
+  margin-top: 40px;
+}
+/* line 221, ../scss/_layout.scss */
+.mancard-info p {
+  font-size: 1.3em;
+  text-align: center;
+}
+
+/* line 227, ../scss/_layout.scss */
+.ace-container {
+  padding-bottom: 75px;
+}
+
+/* line 232, ../scss/_layout.scss */
+.shop-ace-card h2 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: "Pacifico", cursive;
+}
+
+/* line 240, ../scss/_layout.scss */
+.ace-border img {
+  border: solid #872227 5px;
+}
+
+/* line 245, ../scss/_layout.scss */
+.ace-button {
+  background-color: #872227;
+  color: white;
+}
+/* line 248, ../scss/_layout.scss */
+.ace-button:hover {
+  background-color: #bc2f36;
+  color: white;
+}
+
+/* Media Queries
+======================*/
+@media screen and (max-width: 580px) {
+  /* line 261, ../scss/_layout.scss */
+  .main_title h1 {
+    font-size: 4em;
+  }
+  /* line 264, ../scss/_layout.scss */
+  .main_title h3 {
+    font-size: 1.5em;
+  }
+}
