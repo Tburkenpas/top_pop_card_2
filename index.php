@@ -1,9 +1,12 @@
 
-<?php 
+<?php
+
+require_once("inc/config.php");
 $pageTitle = "Top Pop Card | Home of the Man card Bottle Opener and Ace of Diamonds Bottle Opener";
 $descCont = "Top Pop Cards are 36 gauge stainless steel bottle openers that will fit in your wallet.  There are several designs including the Mancard and Ace of Diamonds.";
 $section = "index";
-include('inc/header.php'); ?>
+include(ROOT_PATH . "inc/header.php");    ?>
+
 
   <body>
 
@@ -40,7 +43,7 @@ include('inc/header.php'); ?>
       </div>
       <div class="large-5  columns">
       <div class="bottle-info2">
-        <h3>Mad in the U.S.A</h3>
+        <h3>Made in the U.S.A</h3>
         <p>Bacon ipsum dolor sit amet ham hock chicken spare ribs tail, salami swine capicola pork belly doner t-bone 
           venison biltong bacon. Shoulder shank porchetta, landjaeger jowl pork pastrami tri-tip chuck meatloaf turducken 
           bresaola shankle swine. Beef jerky turkey sirloin meatball leberkas.</p>

@@ -7,12 +7,12 @@
     <title><?php echo $pageTitle; ?></title>
 
     <!-- Foundation Script tags -->
-    <link rel="stylesheet" href="stylesheets/app.css" />
-    <link rel="stylesheet" href="stylesheets/foundation-icons.css" />
-    <link rel="stylesheet" href="stylesheets/style.css" />
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>stylesheets/app.css" />
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>stylesheets/foundation-icons.css" />
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>stylesheets/style.css" />
 
     <!--Javascript tags -->
-    <script src="bower_components/modernizr/modernizr.js"></script> 
+    <script src="<?php echo BASE_URL; ?>bower_components/modernizr/modernizr.js"></script> 
   </head>
 
   <header>
@@ -28,7 +28,7 @@
     <nav class="top-bar" data-topbar data-options="sticky_on: large">
       <ul class="title-area">
         <li class="name">
-          <h1><a href="index.php">Top Pop Card</a></h1>
+          <h1><a href="<?php echo BASE_URL; ?>">Top Pop Card</a></h1>
         </li>
         <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
         <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -37,9 +37,9 @@
       <section class="top-bar-section">
     <!-- Right Nav Section -->
     <ul class="right">
-      <li class="index <?php if ($section == "index") {echo "active";} ?>"><a href="index.php">About</a></li>
-      <li class="contact <?php if ($section == "contact") {echo "active";} ?>"><a href="contact.php">Contact</a></li>
-      <li class="has-dropdown shop <?php if ($section == "shop") {echo "active";} ?>"><a href="shop.php">
+      <li class="index <?php if ($section == "index") {echo "active";} ?>"><a href="<?php echo BASE_URL; ?>">About</a></li>
+      <li class="contact <?php if ($section == "contact") {echo "active";} ?>"><a href="<?php echo BASE_URL; ?>contact/">Contact</a></li>
+      <li class="has-dropdown shop <?php if ($section == "shop") {echo "active";} ?>"><a href="<?php echo BASE_URL; ?>shop/">
         Shop</a>
         <ul class="dropdown">
           <li><a href="#">Man Card</a></li>
